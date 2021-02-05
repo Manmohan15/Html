@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration!</title>
+  </head>
+  <body>
+    <form>
+      Firstname:
+      <input type="text" placeholder="Firstname" name="firstname" required />
+      <br /><br />
+      Lastname:
+      <input type="text" placeholder="Lastname" name="lastname" required />
+      <br /><br />
+      Email :
+      <input
+        type="email"
+        placeholder="email"
+        name="email"
+        required
+      /><br /><br />
+      Password:
+      <input type="password" required name="Password" /> <br /><br />
+      Date of Birth:
+      <input type="date" required name="DOB" /> <br /><br />
+      Gender: <br />
+      <input type="radio" name="Gender" value="Male" />Male<br />
+      <input type="radio" name="Gender" value="Female" />Female<br />
+      <input type="radio" name="Gender" value="Other" />Other <br /><br />
+      Pets:<br />
+      <input type="checkbox" name="Cat" />Cat<br />
+      <input type="checkbox" name="Dog" />Dog<br /><br />
+      Cars:<br />
+      <select name="cars">
+        <option value="Maruti">Maruti</option>
+        <option value="Audi">Audi</option></select
+      ><br /><br />
+
+      Countinent:<br />
+      <input name="countinent" list="countinents" placeholder="countinent" />
+      <datalist id="countinents">
+        <option value="Africa"></option>
+        <option value="Asia"></option>
+        <option value="Australia"></option>
+        <option value="Europe"></option>
+        <option value="Russia"></option>
+        <option value="America"></option>
+        <option value="Antartica"></option>
+      </datalist>
+
+      <br /><br />
+
+      <input type="submit" value="Register" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
